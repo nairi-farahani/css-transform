@@ -46,7 +46,6 @@ body {
   width: 200px;
   height: 200px;
   background-color: rgba(202, 58, 231, 0.501);
-  /* background-color: linear-gradient(rgb(0, 247, 255), rgb(37, 37, 37)); */
   display: flex;
   margin: 15px;
   align-items: center;
