@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(221, 216, 209);
+}
+.l,
+.k,
+.p {
+  width: 300px;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  position: relative;
+  perspective: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(221, 216, 209);
+}
+.s {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(160, 155, 155);
+  display: flex;
+  margin: 15px;
+  align-items: center;
+  position: absolute;
+}
+.z {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(202, 58, 231, 0.501);
+  /* background-color: linear-gradient(rgb(0, 247, 255), rgb(37, 37, 37)); */
+  display: flex;
+  margin: 15px;
+  align-items: center;
+  position: absolute;
+}
+#div1:hover #div2 {
+  transform: rotate(45deg);
+  transition: all 2s;
+}
+#div3:hover #div4 {
+  transform: scale(1, 0.5);
+  transition: all 2s;
+}
+#div5:hover #div6 {
+  transform: scale(0.5, 1);
+  transition: all 2s;
+}
+#div7:hover #div8 {
+  transform: scale(1.5);
+  transition: all 2s;
+}
+#div9:hover #div10 {
+  transform: scale(2, 1);
+  transition: all 2s;
+}
+#div11:hover #div12 {
+  transform: scale(1, 2);
+  transition: all 2s;
+}
+#div13:hover #div14 {
+  transition: all 2s;
+  transform: skew(40deg);
+}
+#div15:hover #div16 {
+  transition: all 2s;
+  transform: skew(0, 40deg);
+}
+#div17:hover #div18 {
+  transition: all 2s;
+  transform: translate(90px, 30px);
+}
+#div19:hover #div20 {
+  transform: translate(100px);
+  transition: all 2s;
+}
+#d1:hover #d2 {
+  transform: translate(0, 100px);
+  transition: all 2s;
+}
+#d3:hover #d4 {
+  transform: skew(0, 40deg) scale(1.5) translate(31px);
+  transition: all 2s;
+}
+#d5:hover #d6 {
+  transition: all 2s;
+  transform: perspective(300px) rotatex(40deg);
+}
+#d7:hover #d8 {
+  transition: all 2s;
+  transform: perspective(300px) rotatey(40deg);
+}
+#di2 {
+  transform-origin: top right;
+}
+#di1:hover #di2 {
+  transition: all 2s;
+  transform: rotate(45deg);
+}
+#di4 {
+  transform-origin: bottom left;
+}
+#di3:hover #di4 {
+  transition: all 2s;
+  transform: rotate(40deg);
+}
+#di6 {
+  transform-origin: bottom;
+}
+#di5:hover #di6 {
+  transition: all 2s;
+  transform: perspective(300px) rotatex(20deg);
+}
+#di8 {
+  transform-origin: top;
+}
+#di7:hover #di8 {
+  transition: all 2s;
+  transform: perspective(3000px) rotatex(50deg) scale(0.9);
+}
+#di10 {
+  transform-origin: left;
+}
+#di9:hover #di10 {
+  transition: all 2s;
+  transform: perspective(3000px) rotatey(50deg);
+}
+#di12 {
+  transform-origin: right;
+}
+#di11:hover #di12 {
+  transition: all 2s;
+  transform: perspective(3000px) rotatey(50deg) scale(0.9);
+}
+#di14 {
+  transform-origin: top right;
+}
+#di13:hover #di14 {
+  transition: all 2s;
+  transform: scale(1.5);
+}
+#di16 {
+  transform-origin: bottom left;
+}
+#di15:hover #di16 {
+  transition: all 2s;
+  transform: scale(1.5);
+}
+#di18 {
+  transform-origin: right;
+}
+#di17:hover #di18 {
+  transition: all 2s;
+  transform: scale(1.5, 1);
+}
+#di20 {
+  transform-origin: left;
+}
+#di19:hover #di20 {
+  transition: all 2s;
+  transform: scale(1.5, 1);
+}
+#di22 {
+  transform-origin: top;
+}
+#di21:hover #di22 {
+  transition: all 2s;
+  transform: scale(1, 1.5);
+}
+#di24 {
+  transform-origin: bottom;
+}
+#di23:hover #di24 {
+  transition: all 2s;
+  transform: scale(1, 1.5);
+}
